@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Photo App</title>
+</head>
+
+<body>
+  <h1>DogPhotoApp</h1>
+
+  <main>
+    <section>
+      <h2>Dog Photos</h2>
+      <p>Click here to view more <a href="https://www.pexels.com/search/dog/" target="_blank">dog photos</a>.</p>
+      <a href="https://www.pexels.com/search/dog/"><img src="./img/dog1.webp" alt="Happy dog"></a>
+    </section>
+
+    <section>
+      <h2>Dog Lists</h2>
+      <h3>Things dogs love:</h3>
+      <ul>
+        <li>Waling</li>
+        <li>Eating</li>
+        <li>Playing</li>
+      </ul>
+      <figure>
+        <img src="./img/dog2.webp" alt="An Eating Dog">
+        <figcaption>Dog <em>loves</em> eating.</figcaption>      
+      </figure>
+      
+      <h3>Top 3 things dogs hate:</h3>
+      <ol>
+        <li>Postman</li>
+        <li>Cats</li>
+        <li>Strangers</li>
+      </ol>
+      <figure>
+        <img src="./img/stranger.jpeg" alt="Strangers">
+        <figcaption>Dogs <strong>hate</strong> strangers.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <h2>Dog Form</h2>
+      <form action="">
+        <fieldset>
+          <legend>Is your dog an indoor or outdoor dog?</legend>
+          <label for=""><input type="radio" name="indoor-outdoor" id="indoor" value="indoor" checked> Indoor</label>
+          <label for=""><input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor"> Outdoor</label>
+        </fieldset>
+        <fieldset>
+          <legend>What's your dog personality?</legend>
+          <input type="checkbox" name="personality" id="loving" value="loving" checked> <label for="loving">Loving</label>
+          <input type="checkbox" name="personality" id="lazy" value="lazy"> <label for="lazy">Lazy</label>
+          <input type="checkbox" name="personality" id="energetic" value="energetic"> <label for="energetic">Energetic</label>
+        </fieldset>
+        <input type="text" name="dog-photo" placeholder="dog photo URL" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>My first website</p>
+  </footer>
+  
+</body>
+</html>
